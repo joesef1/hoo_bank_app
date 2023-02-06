@@ -5,7 +5,8 @@ const App = () =>  (
     <div className='bg-secondary w-full overflow-hidden'>
       {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       </div> */}
-      <h1>rgref</h1>
+      {/* <div></div> */}
+       <h1 className='bg-slate-800 flex justify-center lg:justify-start'>rgref</h1>
     </div>
   );
 
