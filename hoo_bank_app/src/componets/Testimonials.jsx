@@ -1,14 +1,3 @@
-// import React from 'react'
-
-// const Testimonials = () => {
-//   return (
-//     <div>
-//       Testimonials
-//     </div>
-//   )
-// }
-
-// export default Testimonials
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
