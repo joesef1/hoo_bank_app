@@ -5,17 +5,16 @@ import  CardDeal from "./componets/CardDeal";
 import  Clients from "./componets/Clients";
 import  CTA from "./componets/CTA";
 import  Footer from "./componets/Footer";
-import  Navbar from "./componets/Navbar";
+import  NavBar from "./componets/NavBar";
 import  Stats from "./componets/Stats";
 import  Testimonials from "./componets/Testimonials";
 import  Hero from "./componets/Hero";
-// import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "../src/componets";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar />
+        <NavBar />
       </div>
     </div>
 
